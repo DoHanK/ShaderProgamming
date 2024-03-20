@@ -23,7 +23,7 @@ void RenderScene(void)
 	glClearColor(0.0f, 0.3f, 0.3f, 1.0f);
 
 	// Renderer Test
-	g_Renderer->DrawTest();
+	g_Renderer->DrawParticle();
 
 	glutSwapBuffers();
 }
