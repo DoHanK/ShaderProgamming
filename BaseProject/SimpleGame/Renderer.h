@@ -43,6 +43,7 @@ private:
 	GLuint m_particleVBO = 0;
 	float m_particleTime = 0;
 
+	GLuint m_particleCloudShader = 0;
 	GLuint m_particleCloudVBO = 0;
 	GLuint m_particleCloudVertexCount = 0;
 };
