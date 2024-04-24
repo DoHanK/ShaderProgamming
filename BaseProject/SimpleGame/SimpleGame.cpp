@@ -33,7 +33,8 @@ void RenderSceneTimer(int value)
 	glClearColor(0.0f, 0.3f, 0.3f, 1.0f);
 
 	// Renderer Test
-	g_Renderer->DrawParticleCloud();
+	//g_Renderer->DrawFSSandbox();
+	g_Renderer->DrawGridMesh();
 
 	glutSwapBuffers();
 	glutTimerFunc(16, RenderSceneTimer , 1);
